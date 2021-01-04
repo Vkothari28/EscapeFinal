@@ -1,0 +1,23 @@
+Coordinate type : SQUARE
+xMax : 25
+yMax : 20
+
+Locations :
+	(3, 5) block
+    (8, 4)  player1 snail
+	(8, 6)  player2 bird
+	(10, 12) player2 horse
+	(8, 9)  player1 snail
+	(8, 5) exit
+	
+Piece descriptors :
+	SNAIL orthogonal [distance 1]
+	DOG orthogonal  [distance 5]
+	HORSE orthogonal [distance 7, jump]
+	bird orthogonal [fly 5]
+	frog orthogonal [distance 3, unblock]
+	
+Rules :
+REMOVE
+SCORE 1
+TURN_LIMIT 15
